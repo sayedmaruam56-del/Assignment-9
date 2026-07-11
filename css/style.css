@@ -1,0 +1,60 @@
+/* ==========================================
+   ContactHub - Custom Styles
+   ========================================== */
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #f8fafc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Inter", sans-serif;
+}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Form Elements */
+
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+}
+
+/* Buttons */
+
+button {
+    transition: all 0.3s ease;
+}
+
+/* Hide Scrollbar */
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
